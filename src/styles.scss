@@ -3,5 +3,24 @@
     margin: 0px 0px;
     padding: 0px 0px;
     box-sizing: border-box;
-    font-family:sans-serif;
+    font-family:monospace;
+    //border: yellow 1px solid;
+}
+
+body {
+    cursor: none; // Hide the default cursor
+    // height: 100vh;
+}
+
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
 }

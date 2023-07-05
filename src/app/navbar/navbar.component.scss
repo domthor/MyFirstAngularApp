@@ -1,10 +1,8 @@
 .custom-navbar{
     display: flex;
-    background-color: #1c1c1c;
-    padding: 5px;
+    background-color: #3d3d3d;
     justify-content: center;
     align-items: center;
-    border-style: outset;
     position: fixed;
     width: 100%;
 }
@@ -15,7 +13,6 @@
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 blue, -1px 1px 0 red, 1px 1px 0 green;
     transition: transform 0.3s ease;
 }
 
@@ -34,7 +31,7 @@ a{
     color: white;
     margin-top: auto;
     margin-bottom: auto;
-    cursor: pointer;
+    cursor: none;
     transition: transform 0.3s ease;
 }
 

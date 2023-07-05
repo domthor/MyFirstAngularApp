@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  name: string = 'Dominick Thornton';
+  contact: string = 'Contact';
+  linkedin: string = 'LinkedIn';
+  github: string = 'GitHub';
+  home: string = 'Home';
+  about: string = 'About';
 }
 

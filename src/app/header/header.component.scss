@@ -1,9 +1,22 @@
 .header{
     background-color: #3d3d3d;
     color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    height: 2000px;
+    height: 1500px;
     padding-top: 150px;
+}
+
+.picture{
+    margin-left: 90px;
+    border: black 10px solid;
+    border-radius: 5px;
+}
+
+.picture-container{
+    width: 1000px;
+}
+
+.welcome-slogan{
+    margin-top: 50px;
+    margin-left: 25%;
+    font-size: 30px;
 }

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  greeting: string = 'Hello!';
+  welcomePicture: string = 'assets/images/PicWithDog.jpg';
+  sloganBegin: string = 'I\'m ';
+  name: string = 'Dominick Thornton';
+  sloganEnd: string = ', a versatile full stack developer.';
+
 }
