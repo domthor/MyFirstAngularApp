@@ -7,20 +7,44 @@
     //border: yellow 1px solid;
 }
 
-body {
-    cursor: none; // Hide the default cursor
-    // height: 100vh;
+:root{
+    --primary-color: #212121;
+    --secondary-color: #ffffff;
 }
 
-.custom-cursor {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 7px;
-    height: 7px;
-    background-color: white;
-    border: 2px solid black;
+.light-mode{
+    --primary-color: #ffffff;
+    --secondary-color: #212121;
+}
+
+body {
+    cursor: none; // Hide the default cursor
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.cursor {
+    position: absolute;
+    width:10px;
+    height: 10px;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 50%;
     pointer-events: none;
-    z-index: 9999;
+    translate: -50% -50%;
+    mix-blend-mode: difference;
 }
+
+.cursor-shadow {
+    position: absolute;
+    width:20px;
+    height: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    translate: -50% -50%;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+}
+

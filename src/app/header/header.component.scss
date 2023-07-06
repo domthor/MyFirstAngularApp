@@ -1,18 +1,8 @@
 .header{
-    background-color: #3d3d3d;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     height: 1500px;
     padding-top: 150px;
-}
-
-.picture{
-    margin-left: 90px;
-    border: black 10px solid;
-    border-radius: 5px;
-}
-
-.picture-container{
-    width: 1000px;
 }
 
 .welcome-slogan{
